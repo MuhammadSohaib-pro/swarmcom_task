@@ -8,7 +8,6 @@ This is a **Flutter** application for creating, customizing, and manipulating va
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Responsive Design](#responsive-design)
 - [Technologies Used](#technologies-used)
 - [Screenshots & Video](#screenshots--video)
 
@@ -18,7 +17,6 @@ This is a **Flutter** application for creating, customizing, and manipulating va
 - **Customization**: Adjust properties like fill color, stroke color, stroke width, and element size.
 - **Layer Management**: Add, delete, and reorder layers.
 - **Export Design**: Export the canvas as a PNG image.
-- **Responsive Design**: Works on mobile, tablet, and desktop devices.
 
 ## Getting Started
 
@@ -70,13 +68,6 @@ Before you begin, ensure you have the following tools installed:
   
 - **main.dart**: Entry point of the application.
 
-## Responsive Design
-
-The project is designed to be fully responsive and works seamlessly across devices of different screen sizes. The **Responsive** widget adjusts the layout based on the screen width:
-
-- **Mobile**: For screen widths below 850px.
-- **Tablet**: For screen widths between 850px and 1100px.
-- **Desktop**: For screen widths above 1100px.
 
 The `responsive.dart` file contains logic that automatically adjusts the layout based on the screen size.
 
@@ -93,16 +84,16 @@ The `responsive.dart` file contains logic that automatically adjusts the layout 
 
 Below are some screenshots showcasing the app:
 
-<img src="path_to_screenshot_1.png" alt="Screenshot 1" width="400" height="300">
-<img src="path_to_screenshot_2.png" alt="Screenshot 2" width="400" height="300">
-<img src="path_to_screenshot_3.png" alt="Screenshot 3" width="400" height="300">
+<img src="assets/initial_view.png" alt="Screenshot 1" width="400" height="300">
+<img src="assets/usage_view.png" alt="Screenshot 2" width="400" height="300">
+<img src="assets/stackboard_design.png" alt="Screenshot 3" width="400" height="300">
 
 ### Demo Video
 
 You can watch the demo of the app in action below:
 
 <video width="400" height="300" controls>
-  <source src="path_to_demo_video.mp4" type="video/mp4">
+  <source src="assets/screen-capture.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
