@@ -93,7 +93,7 @@ Below are some screenshots showcasing the app:
 You can watch the demo of the app in action below:
 
 <video width="400" height="300" controls>
-  <source src="assets/screen-capture.webm" type="video/webm">
+  <source src="assets\screen-capture.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
